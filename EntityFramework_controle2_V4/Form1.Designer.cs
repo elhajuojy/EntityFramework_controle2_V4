@@ -53,7 +53,7 @@ namespace EntityFramework_controle2_V4
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Poppins SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(292, 35);
+            this.label1.Location = new System.Drawing.Point(304, 37);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(288, 42);
             this.label1.TabIndex = 0;
@@ -62,7 +62,7 @@ namespace EntityFramework_controle2_V4
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(29, 132);
+            this.label2.Location = new System.Drawing.Point(28, 138);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(109, 17);
             this.label2.TabIndex = 1;
@@ -98,7 +98,7 @@ namespace EntityFramework_controle2_V4
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(526, 132);
+            this.label6.Location = new System.Drawing.Point(602, 138);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(54, 17);
             this.label6.TabIndex = 5;
@@ -107,16 +107,16 @@ namespace EntityFramework_controle2_V4
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(491, 184);
+            this.dataGridView1.Location = new System.Drawing.Point(413, 184);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(426, 159);
+            this.dataGridView1.Size = new System.Drawing.Size(647, 199);
             this.dataGridView1.TabIndex = 6;
             // 
             // txtIDConstructions
             // 
-            this.txtIDConstructions.Location = new System.Drawing.Point(179, 127);
+            this.txtIDConstructions.Location = new System.Drawing.Point(179, 135);
             this.txtIDConstructions.Name = "txtIDConstructions";
             this.txtIDConstructions.Size = new System.Drawing.Size(174, 22);
             this.txtIDConstructions.TabIndex = 7;
@@ -139,7 +139,7 @@ namespace EntityFramework_controle2_V4
             // cbMacon2
             // 
             this.cbMacon2.FormattingEnabled = true;
-            this.cbMacon2.Location = new System.Drawing.Point(623, 129);
+            this.cbMacon2.Location = new System.Drawing.Point(687, 135);
             this.cbMacon2.Name = "cbMacon2";
             this.cbMacon2.Size = new System.Drawing.Size(174, 24);
             this.cbMacon2.TabIndex = 10;
@@ -153,54 +153,59 @@ namespace EntityFramework_controle2_V4
             // 
             // btnAjouter
             // 
-            this.btnAjouter.Location = new System.Drawing.Point(32, 390);
+            this.btnAjouter.Location = new System.Drawing.Point(22, 343);
             this.btnAjouter.Name = "btnAjouter";
-            this.btnAjouter.Size = new System.Drawing.Size(94, 29);
+            this.btnAjouter.Size = new System.Drawing.Size(115, 40);
             this.btnAjouter.TabIndex = 12;
             this.btnAjouter.Text = "Ajouter";
             this.btnAjouter.UseVisualStyleBackColor = true;
+            this.btnAjouter.Click += new System.EventHandler(this.btnAjouter_Click);
             // 
             // btnModifer
             // 
-            this.btnModifer.Location = new System.Drawing.Point(149, 390);
+            this.btnModifer.Location = new System.Drawing.Point(139, 343);
             this.btnModifer.Name = "btnModifer";
-            this.btnModifer.Size = new System.Drawing.Size(94, 29);
+            this.btnModifer.Size = new System.Drawing.Size(115, 40);
             this.btnModifer.TabIndex = 13;
             this.btnModifer.Text = "Modifer";
             this.btnModifer.UseVisualStyleBackColor = true;
+            this.btnModifer.Click += new System.EventHandler(this.btnModifer_Click);
             // 
             // btnSupprimer
             // 
-            this.btnSupprimer.Location = new System.Drawing.Point(274, 390);
+            this.btnSupprimer.Location = new System.Drawing.Point(264, 343);
             this.btnSupprimer.Name = "btnSupprimer";
-            this.btnSupprimer.Size = new System.Drawing.Size(94, 29);
+            this.btnSupprimer.Size = new System.Drawing.Size(115, 40);
             this.btnSupprimer.TabIndex = 14;
             this.btnSupprimer.Text = "Supprimer";
             this.btnSupprimer.UseVisualStyleBackColor = true;
+            this.btnSupprimer.Click += new System.EventHandler(this.btnSupprimer_Click);
             // 
             // btnChercher
             // 
-            this.btnChercher.Location = new System.Drawing.Point(388, 126);
+            this.btnChercher.Location = new System.Drawing.Point(413, 132);
             this.btnChercher.Name = "btnChercher";
-            this.btnChercher.Size = new System.Drawing.Size(94, 29);
+            this.btnChercher.Size = new System.Drawing.Size(94, 32);
             this.btnChercher.TabIndex = 15;
             this.btnChercher.Text = "Chercher";
             this.btnChercher.UseVisualStyleBackColor = true;
+            this.btnChercher.Click += new System.EventHandler(this.btnChercher_Click);
             // 
             // btnAfficher
             // 
-            this.btnAfficher.Location = new System.Drawing.Point(823, 129);
+            this.btnAfficher.Location = new System.Drawing.Point(887, 132);
             this.btnAfficher.Name = "btnAfficher";
-            this.btnAfficher.Size = new System.Drawing.Size(94, 29);
+            this.btnAfficher.Size = new System.Drawing.Size(94, 32);
             this.btnAfficher.TabIndex = 16;
             this.btnAfficher.Text = "Afficher";
             this.btnAfficher.UseVisualStyleBackColor = true;
+            this.btnAfficher.Click += new System.EventHandler(this.btnAfficher_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(929, 446);
+            this.ClientSize = new System.Drawing.Size(1072, 446);
             this.Controls.Add(this.btnAfficher);
             this.Controls.Add(this.btnChercher);
             this.Controls.Add(this.btnSupprimer);
@@ -220,6 +225,7 @@ namespace EntityFramework_controle2_V4
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "FormGesContruction";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
